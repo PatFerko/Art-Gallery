@@ -11,26 +11,48 @@
       href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav>
       <div class="primary-header">
         <h3 class="logo">Art Gallery</h3>
         <div class="right-nav">
-          <a href="exhibit.html" class="right-nav-item">Exhibit of the month</a>
-          <a href="collections.html" class="right-nav-item">Collections</a>
+          <div class="dropdown">
+            <button class="dropbtn right-nav-item chivo-font">
+              Exhibitions
+            </button>
+            <div class="dropdown-content chivo-font-light">
+              <a href="/exhibit.html">Exhibit of the month</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn right-nav-item chivo-font">
+              Collections
+            </button>
+            <div class="dropdown-content chivo-font-light">
+              <a href="#">Paintings</a>
+              <a href="#">Printmaking</a>
+              <a href="#">Photography</a>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
     <div class="secondary-header">
       <div class="links">
-        <button a href="">Modern Art</button>
-        <button a href="">Sculptures</button>
-        <button a href="">Photography</button>
-        <button a href="">Abstract</button>
-        <button a href="">Landscape</button>
-        <button a href="">Portraits</button>
-        <button a href="">Installations</button>
+        <button class="chivo-font" a href="">Modern Art</button>
+        <button class="chivo-font" a href="">Sculptures</button>
+        <button class="chivo-font" a href="">Photography</button>
+        <button class="chivo-font" a href="">Abstract</button>
+        <button class="chivo-font" a href="">Landscape</button>
+        <button class="chivo-font" a href="">Portraits</button>
+        <button class="chivo-font" a href="">Installations</button>
       </div>
     </div>
 
@@ -74,12 +96,12 @@
 
     <footer>
       <div class="footer-container">
-        <div class="footer-about">
+        <div class="footer-about chivo-font">
           <a href="about.html">About</a>
         </div>
-        <div>Collections</div>
-        <div>FAQ</div>
-        <div>Contact us</div>
+        <div class="chivo-font-light">Collections</div>
+        <div class="chivo-font-light">FAQ</div>
+        <div class="chivo-font-light">Contact Us</div>
       </div>
     </footer>
   </body>

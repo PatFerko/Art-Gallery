@@ -5,8 +5,6 @@
 A responsive static website for showcasing art collections and promoting current exhibitions.  
 The project focuses on clean layout, visual hierarchy, and adaptive design across screen sizes.
 
----
-
 ![Art Gallery Screenshot](https://i.imgur.com/wQ9dTiC.png)
 
 ---
@@ -23,8 +21,6 @@ The goal was to create a visually structured website without relying on framewor
 - “Exhibit of the Month” highlight page
 - About Us informational page
 - Mobile-friendly layout adjustments
-
----
 
 ![Art Gallery Screenshot](https://i.imgur.com/YrYjQyi.png)
 
@@ -44,8 +40,6 @@ The goal was to create a visually structured website without relying on framewor
 - CSS Grid is used for the main gallery layout to allow flexible control over rows and columns.
 - Flexbox is used for navigation elements and UI components where one-dimensional alignment is more appropriate.
 - jQuery is used selectively to manage dropdown interactions and layout behavior on smaller screen sizes.
-
----
 
 ![Art Gallery Screenshot](https://i.imgur.com/doEVZ1L.png)
 

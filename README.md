@@ -49,7 +49,7 @@ The goal was to create a visually structured website without relying on framewor
 
 - Designing a visually consistent layout using only HTML and CSS
 - Choosing between Grid and Flexbox depending on layout requirements
-- Handling responsive behavior for screen widths below 700px and 500px
+- Responsive behavior is implemented using CSS media queries with breakpoints at 500px, 700px, and 1025px
 
 ## Setup & Usage
 

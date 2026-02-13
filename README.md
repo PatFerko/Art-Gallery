@@ -39,7 +39,7 @@ The goal was to create a visually structured website without relying on framewor
 - The project is implemented as a static website to keep the structure simple and accessible.
 - CSS Grid is used for the main gallery layout to allow flexible control over rows and columns.
 - Flexbox is used for navigation elements and UI components where one-dimensional alignment is more appropriate.
-- jQuery is used selectively to manage dropdown interactions and layout behavior on smaller screen sizes.
+- Responsive design is implemented using CSS media queries to ensure proper layout on smaller screen sizes
 
 ![Art Gallery Screenshot](https://i.imgur.com/doEVZ1L.png)
 
